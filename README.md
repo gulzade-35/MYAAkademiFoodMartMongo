@@ -29,4 +29,6 @@ Mail gönderimi MailKit kütüphanesi ile güvenli ve hızlı şekilde sağlanı
 🌐 ViewComponent: Modüler yapı için Razor bileşenleri. Slider, öne çıkanlar, indirimli ürünler gibi alanlar bu yapı ile dinamikleştirildi.
 🗂️ Session Management: Oturum yönetimi mekanizması. Admin giriş/çıkış ve kullanıcı doğrulama işlemleri oturum üzerinden kontrol edildi.
 
+<img width="1628" height="882" alt="Image" src="https://github.com/user-attachments/assets/63a8c376-3e77-4674-ac28-27de1e0c5798" />
+
 
