@@ -31,4 +31,4 @@ Mail gönderimi MailKit kütüphanesi ile güvenli ve hızlı şekilde sağlanı
 
 <img width="1628" height="882" alt="Image" src="https://github.com/user-attachments/assets/63a8c376-3e77-4674-ac28-27de1e0c5798" />
 
-
+<img width="1602" height="412" alt="Image" src="https://github.com/user-attachments/assets/89d37d67-a190-470e-8e46-b94840f7253e" />
