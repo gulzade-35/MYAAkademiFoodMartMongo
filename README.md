@@ -6,8 +6,11 @@ Hem kullanıcı dostu bir web sitesi hem de yönetim için kapsamlı bir admin p
 👩‍💻 Kullanıcı Arayüzü
 
 💸 Tüm Ürünler: Ürün ve kategoriler ayrı olarak gösterilir.
+
 📈 Uygun Fiyatlı Ürünler: En uygun ürünler ana sayfada listelenir.
+
 📧 İndirim Kodu Mail Gönderimi: Kullanıcılar e-posta adreslerini girerek indirim kodu alabilir.
+
 Mail gönderimi MailKit kütüphanesi ile güvenli ve hızlı şekilde sağlanır.
 
 🔐 Admin Paneli Özellikleri
