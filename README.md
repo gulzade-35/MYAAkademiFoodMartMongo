@@ -25,11 +25,17 @@ Mail gönderimi MailKit kütüphanesi ile güvenli ve hızlı şekilde sağlanı
 🛠️ Kullanılan Teknolojiler ve Yapılar
 
 💻 ASP.NET Core 8.0: Microsoft’un modern, açık kaynaklı web uygulama framework’ü ve admin paneli bu altyapı ile geliştirildi.
+
 🍃 MongoDB: NoSQL, doküman tabanlı veritabanı. Ürün, kategori, satış ve kullanıcı verileri koleksiyon yapısıyla yönetildi.
+
 🔄 AutoMapper: Nesne-to-nesne dönüştürme kütüphanesi. DTO ve entity sınıfları arasındaki dönüşümler sadeleştirildi.
+
 📦 DTO (Data Transfer Objects): Veri transferini optimize eden veri modeli. Katmanlar arası veri aktarımında kullanılarak güvenlik ve performans artırıldı.
+
 ✉️ MailKit: SMTP protokolü ile e-posta gönderimi sağlayan kütüphane. Kullanıcılara indirim kodu otomatik olarak e-posta ile gönderildi.
+
 🌐 ViewComponent: Modüler yapı için Razor bileşenleri. Slider, öne çıkanlar, indirimli ürünler gibi alanlar bu yapı ile dinamikleştirildi.
+
 🗂️ Session Management: Oturum yönetimi mekanizması. Admin giriş/çıkış ve kullanıcı doğrulama işlemleri oturum üzerinden kontrol edildi.
 
 <img width="1628" height="882" alt="Image" src="https://github.com/user-attachments/assets/63a8c376-3e77-4674-ac28-27de1e0c5798" />
