@@ -1,0 +1,28 @@
+﻿@model FoodMartMongo.Dtos.PeopleDtos.GetPeopleByIdDto
+
+@{
+    ViewData["Title"] = "UpdatePeople";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Başlık Güncelleme Sayfası</h5>
+        <div class="card-body">
+            <form method="post">
+                <div class="row">
+                    <label>Başlık</label>
+                    <div class="col">
+                        <input type="text" asp-for="Title" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-primary">Başlığı Güncelle</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

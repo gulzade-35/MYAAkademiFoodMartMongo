@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Mail Gönder";
+}
+
+<h2>Mail Gönder</h2>
+
+<form method="post" asp-controller="Mail" asp-action="Index">
+    <label>Ad:</label>
+    <input type="text" name="Name" required />
+    <br />
+    <label>E-Posta:</label>
+    <input type="email" name="ReceiverMail" required />
+    <br />
+    <button type="submit">Gönder</button>
+</form>
+
+@if (TempData["Success"] != null)
+{
+    <p style="color:green">@TempData["Success"]</p>
+}

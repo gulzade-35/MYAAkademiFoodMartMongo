@@ -1,0 +1,43 @@
+﻿@model FoodMartMongo.Dtos.SliderDtos.GetSliderByIdDto
+
+@{
+    ViewData["Title"] = "CreateSlider";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Yeni Slider Ekleme Sayfası</h5>
+        <div class="card-body">
+            <form method="post">
+                <div class="row">
+                    <label>Başlık</label>
+                    <div class="col">
+                        <input type="text" asp-for="Title" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Resim</label>
+                    <div class="col">
+                        <input type="text" asp-for="ImageUrl" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Açıklama</label>
+                    <div class="col">
+                        <input type="text" asp-for="Description" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-primary">Slider Ekle</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,36 @@
+﻿@model FoodMartMongo.Dtos.CategoryDtos.CreateCategoryDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Yeni Kategori Ekleme Sayfası</h5>
+        <div class="card-body">
+            <form method="post">
+                <div class="row">
+                    <label>Kategori Adı</label>
+                    <div class="col">
+                        <input type="text" asp-for="CategoryName" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Kategori İkon</label>
+                    <div class="col">
+                        <input 
+                           type="text" asp-for="IconUrl" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-primary">Kategoriyi Ekle</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+

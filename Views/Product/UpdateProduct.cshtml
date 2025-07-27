@@ -1,0 +1,60 @@
+﻿@model FoodMartMongo.Dtos.ProductDtos.GetProductByIdDto
+
+@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Ürün Güncelleme Sayfası</h5>
+        <div class="card-body">
+            <form method="post">
+                <input type="hidden" asp-for="ProductId" />
+                <div class="row">
+                    <label>Ürün Adı</label>
+                    <div class="col">
+                        <input type="text" asp-for="Name" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Ürün Fiyatı</label>
+                    <div class="col">
+                        <input type="text" asp-for="Price" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Ürün Görseli</label>
+                    <div class="col">
+                        <input type="text" asp-for="ImageUrl" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Ürün Stok Sayısı</label>
+                    <div class="col">
+                        <input type="text" asp-for="StockCount" class="form-control" />
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <label>Ürün Kategori</label>
+                    <div class="col">
+                        <select type="text" asp-for="CategoryId" class="form-control" asp-items="ViewBag.v">
+                            <option value="">-- Kategori Seçin -- </option>
+                        </select>
+
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col">
+                        <button class="btn btn-primary">Ürünü Güncelle</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

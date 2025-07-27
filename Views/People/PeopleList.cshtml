@@ -1,0 +1,38 @@
+﻿@model List<FoodMartMongo.Dtos.PeopleDtos.ResultPeopleDto>
+
+@{
+    ViewData["Title"] = "PeopleList";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container">
+    <div class="card">
+        <h5 class="card-header">Arama Başlıkları</h5>
+        <div class="table-responsive text-nowrap">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Başlık</th>
+                        <th>Sil</th>
+                        <th>Güncelle</th>
+                    </tr>
+                </thead>
+                <tbody class="table-bordered">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Title</td>
+                            <td><a href="/People/DeletePeople/@item.PeopleId" class="btn btn-danger">Sil</a></td>
+                            <td><a href="/People/UpdatePeople/@item.PeopleId" class="btn btn-success">Güncelle</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+            <br />
+            <a href="/People/CreatePeople/" class="btn btn-primary">Yeni Başlık Girişi</a>
+        </div>
+        <br />
+    </div>
+</div>
+
